@@ -1,0 +1,107 @@
+.promise{
+    padding: 100px 160px;
+    background: #FAFAFC;
+    position: relative;
+}
+.promise-subtitle{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+}
+.promise-title{
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 7px;
+}
+.promise-desc{
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 70px;
+}
+.promise-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 110px;
+
+}
+.promise-card{
+    width: 33.33333%;
+    border: #000000;
+    text-align: center;
+}
+@media (max-width: 992px) {
+    .promise-card{
+        width: calc(50% - 16px);
+    }
+    .promise-card-desc{
+        font-size: 14px;
+    }
+    .promise-row{
+        column-gap: 25px;
+    }
+}
+.promise-card-circle{
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promise-card-title{
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+    margin: 10px 0;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+.promise-card-desc{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.promise::before{
+    content: url("../images/promise-before.svg");
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

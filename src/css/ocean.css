@@ -1,0 +1,22 @@
+.ocean{
+    position: relative;
+}
+.ocean-video{
+    width: 100%;
+}
+.ocean-list{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 17px 22px;
+    background: #292C32;
+    border-radius: 16px;
+}
+.ocean-link{
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    list-style-type: none;
+    text-decoration: none;
+}
+:root{
+    --black: #303B40;
+    --gold:#E6B939
+
+}
+
+.container{
+    max-width: 1208px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*font-family: 'Roboto', sans-serif;*/

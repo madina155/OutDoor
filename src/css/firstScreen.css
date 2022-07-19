@@ -1,0 +1,46 @@
+.firstScreen{
+    background:url("../images/IMAGE.png")center/cover no-repeat ;
+    padding: 218px 0 227px;
+}
+.firstScreen-suptitle{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: var(--gold);
+}
+.firstScreen-title{
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+.firstScreen-desc{
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+
+}
+@media (max-width: 769px) {
+    .firstScreen-subtitle{
+        font-size: 13px;
+    }
+    .firstScreen-title{
+        font-size: 46px;
+    }
+    .firstScreen-desc{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 426px) {
+    .firstScreen-suptitle{
+        font-size: 13px;
+    }
+    .firstScreen-title{
+        font-size: 35px;
+    }
+    .firstScreen-desc{
+        font-size: 12px;
+    }
+}

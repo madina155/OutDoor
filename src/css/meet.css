@@ -1,0 +1,90 @@
+.meet{
+    padding: 100px 0;
+}
+.meet-suptitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+}
+.meet-title{
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+.meet-desc{
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 21px;
+}
+.meet-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+}
+.meet-card{
+    width: calc( 33.33333% - 10px);
+    height: 473px;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+@media (max-width: 769px) {
+    .meet-card{
+        width: calc(50% - 16px);
+    }
+}
+
+
+.meet-card.accessories{
+    background: url("../images/meet/IMAGE (2).png") center/cover no-repeat;
+}
+.meet-card.Apparel{
+    background: url("../images/meet/IMAGE (3).png") center/cover no-repeat;
+}
+.meet-card.Climbing-Gear{
+    background: url("../images/meet/IMAGE (4).png") center/cover no-repeat;
+}
+.meet-card.Headwear{
+    background: url("../images/meet/IMAGE (5).png") center/cover no-repeat;
+}
+.meet-card.Hiking-Gear{
+    background: url("../images/meet/IMAGE (6).png") center/cover no-repeat;
+}
+.meet-card.Jackets{
+    background: url("../images/meet/IMAGE (7).png") center/cover no-repeat;
+}
+.meet-card-title{
+    font-size: 28px;
+    line-height: 34px;
+    color: var(--black);
+    font-family: 'Roboto' ,sans-serif;
+}
+
+.meet-card-desc{
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.meet-card-link{
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--black);
+}
+.meet-footer{
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--black);
+    margin-top: 20px;
+    text-align: center;
+}
